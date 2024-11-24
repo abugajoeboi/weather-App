@@ -1,0 +1,65 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    
+  }
+  .container{
+    margin: 0% 0% 0% 30%;
+    padding: 0px 0px 0px 50px;
+    /* background-color: aquamarine; */
+    width: 30%;
+    height: 40%;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  h2 {
+    margin: 20px 0 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+
+
+
+  .weather-container {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;                        /* Padding inside the container */
+    border-radius: 10px;                   /* Rounded corners */
+    width: 300px;                          /* Fixed width for the container */
+   text-align: center;                    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add a shadow for depth */
+    /* margin: 20px auto;                     Center the container and add margin */
+    color: #fff; 
+                          /* Text color */
+  }
+  
+  .weather-container h2 {
+    margin-bottom: 10px;                   /* Space below the city name */
+    font-size: 24px;                       /* Larger font for the city name */
+  }
+  
+  .weather-container p {
+    margin: 5px 0;                         /* Space between paragraphs */
+    font-size: 18px;                       /* Font size for the details */
+  }
+  
+  
